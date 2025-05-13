@@ -6,7 +6,7 @@ This project is a web application that displays a list of albums and details of 
 
 ---
 
-## Libraries & Tools Used
+## Development Stack
 
 ### 1. **Next.js** (React Framework)
 
@@ -42,8 +42,8 @@ This project is a web application that displays a list of albums and details of 
 Clone the project from GitHub:
 
 ```bash
-git clone https://github.com/your-repository/albums-and-users-management.git
-cd albums-and-users-management
+https://github.com/Vo-Dinh-Quan/geek-project.git
+cd geek-project
 ```
 
 ### 3. **Install Dependencies**
