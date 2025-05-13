@@ -24,3 +24,72 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.ant-layout-sider-zero-width-trigger {
+  color: black !important;
+  background-color: white !important;
+  border-top: 1px solid #d9d9d9 !important;
+  border-bottom: 1px solid #d9d9d9 !important;
+  border-right: 1px solid #d9d9d9 !important;
+  border-left: none !important;
+
+  border-top-right-radius: 8px !important;
+  border-bottom-right-radius: 8px !important;
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+
+  transition: all 0.3s ease !important;
+}
+
+.ant-layout-sider-zero-width-trigger:hover {
+  color: #4096ff !important;
+  border-top: 1px solid #1890ff !important;
+  border-bottom: 1px solid #1890ff !important;
+  border-right: 1px solid #1890ff !important;
+  border-left: none !important;
+
+  border-top-right-radius: 8px !important;
+  border-bottom-right-radius: 8px !important;
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+
+/* Tùy chỉnh màu sắc nút mở rộng khi `Sider` thu gọn */
+.ant-layout-sider-trigger {
+  color: blue !important; /* Thay đổi màu icon nút mở rộng */
+  background-color: transparent !important; /* Đảm bảo nền trong suốt */
+}
+
+/* Tắt viền phải của Menu khi ở dạng inline hoặc vertical */
+.ant-menu-light.ant-menu-root.ant-menu-inline,
+.ant-menu-light > .ant-menu.ant-menu-root.ant-menu-inline,
+.ant-menu-light.ant-menu-root.ant-menu-vertical,
+.ant-menu-light > .ant-menu.ant-menu-root.ant-menu-vertical {
+  border-inline-end: none !important;
+}
+
+.ant-pagination {
+  background-color: transparent !important;
+}
+
+.ant-pagination .ant-pagination-item {
+  background-color: transparent !important;
+}
+
+.ant-pagination .ant-pagination-item:hover {
+  background-color: #e7e7e7 !important;
+}
+
+:where(.css-dev-only-do-not-override-1m2bkf9).ant-card .ant-card-head {
+  padding-top: 0 !important; /* Xóa padding trên */
+  padding-left: 0 !important; /* Xóa padding trái */
+  padding-right: 0 !important; /* Xóa padding phải */
+  padding-bottom: 24px !important; /* Giữ lại padding dưới (hoặc giá trị bạn muốn) */
+}
+
+:where(.css-dev-only-do-not-override-1m2bkf9).ant-card .ant-card-body {
+  padding-top: 24px !important; /* Giữ lại padding trên (hoặc giá trị bạn muốn) */
+  padding-left: 0 !important; /* Xóa padding trái */
+  padding-right: 0 !important; /* Xóa padding phải */
+  padding-bottom: 0 !important; /* Xóa padding dưới */
+}
